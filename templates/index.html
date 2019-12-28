@@ -1,0 +1,236 @@
+{% extends "sablon.html" %} 
+{% block icerik %}
+     <!--Gerekli olan sementic-ui clası-->
+     <div class="ui vertical sc-main center aligned segment">
+            <div class="ui three column doubling stackable grid container"style="margin-top: 70px;">
+        <h1 class="ui inverted header aligned">FAVORİ KİTAPLARIM</h1>
+        
+        <div class="row">
+                <div class="column">
+                    <div class="ui special cards">
+                        <div id="card1" class="ui link centered fluid card">
+                            <div class="bluring dimmable image">
+                                <div class="ui dimmer transition hidden">
+                                    <div class="content">
+                                        <div class="center">
+                                            <i class="huge zoom in circle icon"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img class="ui image dimmable" src="/static/images/foto1.JPG">
+                            </div>
+                            <div class="content">
+                                <div class="header">Kitap Adı: Mustafa Kemal
+                                    <br> Yazar: Yılmaz ÖZDİL
+                                </div>
+                                <div class="content">
+                                    Sayfa sayısı: 520
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui special cards">
+                        <div id="card2" class="ui link centered fluid card">
+                            <div class="bluring dimmable image">
+                                <div class="ui  dimmer transition hidden">
+                                    <div class="content">
+                                        <div class="center">
+                                            <i class="huge zoom in circle icon"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img class="ui image dimmable" src="/static/images/foto2.JPG">
+                            </div>
+                            <div class="content">
+                                <div class="header">Kitap Adı: Serenad
+                                    <br> Yazar: Zülfü LİVANELİ</div>
+                                <div class="content">
+                                    Sayfa Sayısı: 484
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui special cards">
+                        <div id="card3" class="ui link centered fluid card">
+                            <div class="bluring dimmable image">
+                                <div class="ui dimmer transition hidden">
+                                    <div class="content">
+                                        <div class="center">
+                                            <i class="huge zoom in circle icon"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img class="ui image dimmable" src="/static/images/foto3.JPG">
+                            </div>
+                            <div class="content">
+                                <div class="header">Kitap Adı: Kırlangıç Çığlığı
+                                    <br> Yazar: Ahmet ÜMİT</div>
+                                <div class="content">
+                                    Sayfa Sayısı: 436
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui special cards">
+                        <div id="card4" class="ui link centered fluid card">
+                            <div class="bluring dimmable image">
+                                <div class="ui dimmer transition hidden">
+                                    <div class="content">
+                                        <div class="center">
+                                            <i class="huge zoom in circle icon"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img class="ui image dimmable" src="/static/images/foto4.JPG">
+                            </div>
+                            <div class="content">
+                                <div class="header">Kitap Adı: Çakıcı'nın İlk Kurşunu
+                                    <br> Yazar: Sabahattin ALİ</div>
+                                <div class="content">
+                                    Sayfa Sayısı: 148
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui special cards">
+                        <div id="card5" class="ui link centered fluid card">
+                            <div class="bluring dimmable image">
+                                <div class="ui dimmer transition hidden">
+                                    <div class="content">
+                                        <div class="center">
+                                            <i class="huge zoom in circle icon"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img class="ui image dimmable" src="/static/images/foto8.JPG">
+                            </div>
+                            <div class="content">
+                                <div class="header">Kitap Adı: Öğretmen Olmak
+                                    <br> Yazar: Doğan, İrfan CÜCELOĞLU</div>
+                                <div class="content">
+                                    Sayfa Sayısı:205
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui special cards">
+                        <div id="card6" class="ui link centered fluid card">
+                            <div class="bluring dimmable image">
+                                <div class="ui dimmer transition hidden">
+                                    <div class="content">
+                                        <div class="center">
+                                            <i class="huge zoom in circle icon"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img class="ui image dimmable" src="/static/images/foto6.JPG">
+                            </div>
+                            <div class="content">
+                                <div class="header">Kitap Adı: Uçurtma Avcısı
+                                    <br> Yazar: Khaled HOSSEINI  </div>
+                                <div class="content">
+                                    Sayfa Sayısı: 375
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+     </div>
+         <!-- MODALS-->
+
+         <div class="ui modal modal1">
+            <div class="ui segment">
+                    <img class="ui centered medium image fluid" src="/static/images/foto1.JPG">
+                    
+                    <p>ÖZET <br>“Bizler dünyaya geldiğimiz zaman, bu topraklar üzerinde yaşayan herkesle birlikte, yok edici bir zorbalığın pençesindeydik. Ağızlar kitlenmişti. Öğretmenler yalnız bir noktayı dimağlara yerleştirmek zorunluluğunda tutuluyordu: Benliğini, her şeyini unutarak, bir korkunç hayale boyun eğmek, onun kulu kölesi olmak…”
+
+                        Komşuları Binbaşı Kadri Beyin yardımıyla Selanik Askeri Rüştiyesine yazıldı. Böylece Mustafa Kemal Atatürk olmasının ilk adımı da atılmış oldu. Bu okuldaki matematik öğretmeni Üsküplü Yüzbaşı Mustafa Efendi ona Kemal ismini verdi. Öğretmeni, Askeri Rüştiyedeki diğer öğretmenler gibi Namık Kemal hayranıydı. Namık Kemal, Türk milletinin asırlardır beklediği sesti.</p>
+                  </div>
+    </div>
+    
+    
+        <div class="ui modal modal2">
+            <div class="ui segment">
+                    <img class="ui centered medium image fluid" src="/static/images/foto2.JPG">
+                    <p>ÖZET <br>Her şey, 2001 yılının Şubat ayında soğuk bir gün, İstanbul Üniversitesi’nde halkla ilişkiler görevini yürüten Maya Duran’ın (36) ABD’den gelen Alman asıllı Profesör Maximilian Wagner’i (87) karşılamasıyla başlar. 1930’lu yıllarda İstanbul Üniversitesi’nde hocalık yapmış olan profesörün isteği üzerine, Maya bir gün onu Şile’ye götürür. Böylece, katları yavaş yavaş açılan dokunaklı bir aşk hikâyesine karışmakla kalmaz, dünya tarihine ve kendi ailesine ilişkin birtakım sırları da öğrenir.
+
+                        Serenad, 60 yıldır süren bir aşkı ele alırken, ister herkesin bildiği Yahudi Soykırımı olsun isterse çok az kimsenin bildiği Mavi Alay, bütün siyasi sorunlarda asıl harcananın, gürültüye gidenin hep insan olduğu gerçeğini de göz önüne seriyor. Okurunu sımsıkı kavrayan Serenad’da Zülfü Livaneli’nin romancılığının en temel niteliklerinden biri yine başrolde: İç içe geçmiş, kaynaşmış kişisel ve toplumsal tarihlerin kusursuz Dengesi.
+                        
+                        “Bir kız çocuğunun büyümesi ne zaman biter acaba? İlk âdet gördüğünde mi, 18 yaşını doldurunca mı, evlenince mi, saçına ilk ak düşünce mi? Bence hiçbiri değil. Bir kız çocuğu büyümez, kaç yaşına gelirse gelsin asla büyümüş gibi hissetmez kendini. Son nefesini içi arzularla, heyecanlarla dolu bir kız olarak verir.
+                        
+                        Ama değişim yaşar. Hayat o kızı sürekli değiştirir ve bu değişimlerin hiç şaşmayan bir aktörü vardır: Bir erkek. Geriye bakınca Ahmet’in bile beni olgunlaştırmış olduğunu anlıyorum, Tarık’ın etkisi daha az bile olsa onun da faydası oldu ama kişiliğimdeki en büyük değişimi yaşlı bir erkeğe borçluyum. Aramızda ne aşk, ne cinsellik, ne aynı ülkeyi, aynı dili paylaşma durumu bulunan, kısa bir süre tanıdığım bir erkek.”
+                 </p> </div>
+    </div>
+    
+    
+        <div class="ui modal modal3">
+            <div class="ui segment">
+                    <img class="ui centered medium image fluid" src="/static/images/foto3.JPG">
+                    <p> ÖZET <br>Acıyı gördüm. Gözlerinin ortasında bir çiçek gibi büyüyen irisin önce ağır ağır büzülmesini, ardından çığlık gibi ansızın patlamasını gördüm. Titreyen dudaklar, bal mumuna dönüşen yüzleri, çöken yanakları, irileşen elmacık kemiklerini, birer mağara gibi derinleşen göz çukurlarını, kurumuş ağızların içinde pelteleşen dilleri gördüm.
+ 
+                        Anladım ki benliğimizin farkına vardığımız an, acının pençesinde kıvrandığımız andır.
+                         
+                        Çığlık değil, ürperiş değil, evet, nereden geldiğini bilmediğim o vahşi iniltiyi kalbimin derinliklerinde duydum. Soluksuz kaldım, boğazım kupkuru, alnım ateşler içinde, tuhaf bir hülyaya kapılmışım gibi sürüklendim o dipsiz boşlukta. Hayatın en karanlık sırrıyla yüzleştim.
+                         
+                        Karanlığın her aşamasından geçtim, akan kanın sesini duydum, ölümün serinliğini damarlarımda hissettim.
+                         
+                        Geçmişin kamburunu çoktan söküp attım sırtımdan.
+                         
+                        İnsanın insanı öldürdüğü o ilk ânı gördüm, katilin zafer haykırışını, kurbanın korku çığlığını işittim.
+                         
+                        Her an uyanmaya hazır o muhteşem dürtüyü bastırmak, insanlığın en masum haline, en saf doğasına dönmemek için yıllarca ihanet ettim kendime. Kendimle birlikte bütün dünyayı da kandırdım. Neredeyse başaracaktım ama bırakmadılar, benim adıma onlar öldürmeye başladılar.
+                         
+                        İşte bu yüzden geri döndüm... </p>
+                  </div>
+    </div>
+    
+    
+        <div class="ui modal modal4">
+            <div class="ui segment">
+                    <img class="ui centered medium image fluid" src="/static/images/foto4.JPG">
+                    <p>ÖZET <br>"Kadın bir erkeğe varmaz, kadın bir erkeğe verilmez ve bir erkek bir kızı almaz,
+                        (almak, vermek) bu tabirler kadını kıymetten düşüren, ona ahkar (en hakir) mahiyeti veren şeylerdir ve her şeyden evvel bu zihniyeti kadınlarımız kafalarından çıkartmalıdır..
+                        Bilmelidirler ki iki cins birbirleriyle hayatlarını birleştirirken yuvaya getirdikleri aynı kıymette şeylerdir ve koca mal sahibi değil, ortak, hayat ortağı demektir.
+                        
+                        Bu hukuk müsavatı kadınlarımızın şuurunda yer ettikten sonra onların kuvvetli ve hakiki bir insan olmak için dimaği ve fikri sahada da yükselmek isteyecekleri tabiidir.
+                        
+                        Memleketimizin kadın ve erkeklerini, biri diğerini sürükleyen ve taşıyan değil, el ele ve aynı tempoda yürüyen iki mahluk olarak göreceğimiz günün uzak olmamasını dilerim. bu kadar efendim."</p>
+                  </div>
+    </div>
+    
+    
+        <div class="ui modal modal5">
+            <div class="ui segment">
+                    <img class="ui centered medium image fluid" src="/static/images/foto8.JPG">
+                    <p>ÖZET <br>Doğan Cüceloğlu ve İrfan Erdoğan, bu kitapta genç fidanları taptaze umutlara dönüştüren öğretmenlerimizi konuşuyorlar.
+
+                        Eğitim ve öğretmenlik hakkında bugüne kadar biriktirdikleri kuramsal, tarihsel ve güncel fikirlerini paylaşmak üzere bir araya gelen Doğan Cüceloğlu ve İrfan Erdoğan, uzun soluklu bir yol arkadaşlığı kurdular. Yaklaşık bir yıla yayılan bir zaman dilimi içinde, sadece İstanbul’da değil, Türkiye’nin çeşitli kentlerinde “öğretmen”i konuştular, tartıştılar ve bütün bu kayıtları, elinizdeki kitabın malzemesini teşkil edecek şekilde düzenlediler.
+                        
+                        Nihayetinde ortaya çıkan bu eser, eğitim konusunda Türkiye’nin en birikimli düşünürlerinden Doğan Cüceloğlu ve İrfan Erdoğan’ın yalnızca kendi aralarındaki değil, tüm öğretmenlerimizle kurdukları diyalogun bir ürünü olarak görülmelidir. Ve şimdi bu diyalog, kitabın okurlarıyla devam edecek.
+                        
+                        Öğretmen Olmak, sadece okulda değil, yaşamın her alanında, herkese esin kaynağı olmak isteyenlere…</p>
+                  </div>
+    </div>
+    
+    
+        <div class="ui modal modal6">
+                <div class="ui segment">
+                        <img class="ui centered medium image fluid" src="/static/images/foto6.JPG">
+                        <p>ÖZET <br>Kabil’de monarşinin son yıllarında birlikte büyüyen emir ve Hasan süt kardeşler. Emir zengin bir iş adamının oğludur. Emir’in babası yardımsever bir insandır. Hasan ülkede sevilmeyen hazara çocuğudur. Hasan’ın babası (Ali) ise Emir’in babasıyla eski dostlar. Aynı zamanda onun hizmetini yapar. Hasan okumayı ve yazmayı bilmez. Emir Hasan’a yazdığı hikayeleri okur. Bir gün emir hikaye yazarken o esnada Rahim han içeri girer ve yazdığı hikayeyi okumak istediğini söyler. Okuduktan sonra çok beğendiğini ve iyi dileklerini ileti. Kabil’de her yıl düzenli olarak uçurtma şenliği düzenlenir. Bir gün uçurtma yarışı yapılır ve bu yarışamaya emir ve Hasan’da katılır. Yaklaşık 100 uçurtmadan sadece iki uçurtma kalmış ve son uçurtmayı da Emir koparmıştır. Hasan kopan uçurtmayı yakalamak için emir’e söz verir ve uçurtmanın peşinden koşar. Emir Hasan’ı merak eder ve onu aramaya başlar. Yaşlı bir satıcıya sorar o da elinde uçurtmayla peşinde birkaç çocuk kaçarken gördüğünü söyler. Emir tedirgin olur ve aramaya devam eder. Bir ses duyar hemen oraya yönelir Assef ve arkadaşları Hasan’ı kıstırmış elindeki uçurtmayı ister hasan ise hiç tereddütsüz “uçurtmayı emir ağama götüreceğim ona söz verdim.“ der. Assef o zaman hayatı boyunca unutamayacağı bir şey yaşayacağını söyler ve Hasan’ı dövdükten sonra ona tecavüz eder. Bütün bu olanları izleyen emir ise hiçbir şey yapmadan arkasına bile bakmadan oradan koşarak uzaklaşır. Emir Hasan’ın yüzüne bakamaz ve utanır. Hasan her gün Emir’in işlerini erkenden bitirip ona gözükmeden geri yatar. Emir babasına onları artık burada istemediğini söyler ama ters tepki alır. Bu duruma dayanamayan emir Hasan’ı hırsızlıkla suçlar. Ali daha fazla hizmetlerinde çalışamayacağını söyler ve oradan ayrılırlar. Kabil’de çıkan savaş nedeniyle emir ve babası ülkeyi terk eder. Hayatlarını Amerika California’da sürdürmeye başlarlar. Ama emir geçmişte yaşadıklarını unutamaz. Hasan’a yaptıklarından dolayı utanç duyar. Emir büyür ve okulundan mezun olur. Babası ise bitpazarında çalışmaktadır. Emir pazarda General Taheri’nin kızın Süreyya’ya aşık olur.bu arada emir kitap yazmaktadır. Emir Süreyya ile evlenir. Evlendiklerinden bir gün sonra emir’in babası ölür. Emir çok üzülür. Emir’in yazmış olduğu kitap yayımlanmıştır. O gün emir’e telefon gelir ve arayan rahim Han’dır. Rahim han Hasan’ın başının belada olduğunu söyler. Emir’i Pakistan’a çağırır. Emir duyduklarının üzerine dayanamayıp Pakistan’a gider. Yanında rahim Han’a hediye olarak yazmış olduğu kitabı getirir. İçinde ise “ Rahim Han ‘a daha yazmayı bile öğrenememişken hikayelerimi dinlerdi.” yazıyordu. Rahim Han çok hastadır. Emir’e Hasan’ın yazmış olduğu mektubu verir. Hasan ona mektup da yazmayı güzelce öğrenene kadar yazmadığını yeni yeni İngilizceyi öğrenmeye çalıştığını, Farzana adında karısının ve Sohrab isminde bir de oğlunun olduğunu söyler. Rahim han Hasan’ın bir çatışma sırasında öldüğünü ve karısının da onu kurtarmak isterken vurulduğunu anlatır. Emir Sohrab’ı sorar onun da yetimhanede olduğunu söyler. Ayrıca emir babasının kendisini yıllarca kandırdığını ve Hasan’ın kardeşi olduğunu öğrenir. Emir Rahim han’ın ayarladığı bir şoför (Ferit) ile kabil’e gider. Vicdanını rahatlatmak için eline fırsat geçer. Kabil’e döndüğünde her şeyin daha kötüye gittiğini fark eder. Kabil’i terk etmek kaldığı olaya benzer bir şeyle karşı karşıya kalır. Sohrab’ı ararlar ve uzun süre sonra izni bulur. Bir adamla tanışır ve onun karşısına tek başına çıkar. Ona ne için Kabil’de olduğunu anlatır. Adam Sohrab’ı çağırır onu köle gibi kullanmaktadır. Daha sonra adamın Assef olduğunu anlar. Assef ile Emir tartışır ve Assef Emir’i döverken Sohrab emir’in Hasan’a hediye ettiği sapanı çıkarır. Sohrab babasından yadigar olan sapanı çok iyi kullanmaktadır. Assef’in sol gözünü isabet alır ve vurur, Assef bağırır. Onlarda kaçar. Ferit kapıda bekler arabaya atladıkları gibi Pakistan’a giderler. Rahim han hayatını kaybetmiştir. Emir Süreyya’yı arar ve olanları anlatır. Emir Sohrab’ı da alır California’ya döner. Süreyya’nın babası bu duruma karşı çıkar ama Süreyya babasına cevabını verdikten sonra bir şey söyleyemez. Birlikte parka gittiler. Emir Sohrab’a orda gördüğü uçurtmayı alır ve ona uçurmayı öğretir. Şimdi Hasan’ın yerinde oğlu Sohrab vardı yani makarayı o tutuyordu ipi ise emir beraber diğer uçurtmayı kopardılar. Emir kopan uçurtmayı yakalayacağına dair Sohrab’a söz verdi ve uçurtmanın peşinden koştu.</p>
+                      </div>
+        </div>
+        </div>
+        {% endblock %}

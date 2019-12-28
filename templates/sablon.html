@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Semantic UI Projesi</title>
+    <!--Google Font Sayfamıza farklı bir font eklemek istersek onu nasıl yapacağız?-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400&display=swap" rel="stylesheet">
+
+    <!--CSS Files-->
+    <link rel="stylesheet" href="/static/css/semantic.css" />
+    <link rel="stylesheet" href="/static/css/styles.css" />
+    <!--JS Files-->
+    <script src="/static/js/jquery-3.4.1.js"></script>
+    <script src="/static/js/semantic.js"></script>
+</head>
+<body class="sc-main pushable">
+    <div class="ui vertical inverted sidebar menu">
+            <div class="ui right aligned category search">
+                    <div class="ui icon input">
+                      <input class="prompt" type="text" placeholder="Kitap ara...">
+                      <i class="search icon"></i>
+                    </div>
+                    <div class="results"></div>
+                  </div>
+            
+        <a class="item" href="/">Anasayfa</a>
+        <a class="item" href="/kitaplar">Hizmetler</a>
+        <a class="item active" href="/hakkinda">Hakkında</a>
+        <a class="item" href="/uye">GirişYap</a>
+    </div>
+     <!--Gerekli olan sementic-ui clası-->
+     <div class="ui vertical sc-main center aligned segment">
+        <div class="ui container">
+            <!--Menü ile ilgili classlar-->
+            <div class="ui large secondary inverted pointing fixed menu">
+                <a class="toc item">
+                    <i class="sidebar icon"></i>
+                </a>
+                <div class="sc-logo"><a  href="/kapat">ÇIKIŞ </a></div>
+                <div class="right item">
+                    <a class="item" href="/">Anasayfa</a>
+                    <a class="item" href="/kitaplar">Kitaplar</a>
+                    
+                    <a class="item " href="/hakkinda">Hakkında</a>
+                    <a class="item" href="/uye">GirişYap</a>
+                    <div class="ui right aligned category search">
+                        <div class="results"></div>
+                      </div>
+                </div>
+                
+            </div>
+    
+    {% block  icerik %} {% endblock %}
+    <div class="ui inverted vertical footer segment">
+     <div class="ui center aligned container">
+       <div class="ui horizontal inverted small divided link list">
+         <a href="https://www.instagram.com/?hl=tr"><img src="/static/images/instagram.jpg" class="item"> </img></a>
+         <a href="https://tr-tr.facebook.com/"><img src="/static/images/facebook.png" class="item"> </img></a>
+         <a href="https://twitter.com/login?lang=tr"><img src="/static/images/twitter.png" class="item"> </img></a>
+         <a href="https://www.youtube.com/"><img src="/static/images/youtube.png" class="item"> </img></a>
+       </div>
+     </div>
+   </div>
+        </div>
+     </div>
+
+         <!--Custom JS File-->
+   <script src="/static/js/script.js"></script>
+</body>
+</html>

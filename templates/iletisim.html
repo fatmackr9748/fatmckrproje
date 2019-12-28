@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Semantic UI Projesi</title>
+    <!--Google Font Sayfamıza farklı bir font eklemek istersek onu nasıl yapacağız?-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400&display=swap" rel="stylesheet">
+
+    <!--CSS Files-->
+    <link rel="stylesheet" href="/static/css/semantic.css" />
+    <link rel="stylesheet" href="/static/css/styles.css" />
+    <link rel="stylesheet" href="/static/css/uyeform.css" />
+    <!--JS Files-->
+    <script src="/static/js/jquery-3.4.1.js"></script>
+    <script src="/static/js/semantic.js"></script>
+    <script src="/static/js/script.js"></script>
+</head>
+<body class="sc-main">
+    <div class="ui middle aligned center aligned grid">
+        <div class="column">
+          <h2 class="ui image header">
+            <div class="content">
+             İletişim
+            </div>
+          </h2>
+          <form  method="POST" class="ui large form">
+            <div class="ui stacked secondary  segment">
+              <div class="field">
+                <div class="ui left icon input">
+                  <i class="user icon"></i>
+                  <input type="text" name="email" placeholder="E-mail adresinizi giriniz.">
+                </div>
+              </div>
+              <div class="field">
+                    <div class="ui left icon input">
+                      <i class="user icon"></i>
+                      <input type="text" name="name" placeholder="Adınızı giriniz.">
+                    </div>
+                  </div>
+                  <div class="field">
+                        <div class="ui left icon input">
+                          <i class="user icon"></i>
+                          <input type="text" name="surname" placeholder="Soyadınızı giriniz.">
+                        </div>
+                      </div>
+              <div class="field">
+                <div class="ui left icon input">
+                  <i class="lock icon"></i>
+                  <input type="text" name="password" placeholder="Yorumuzu yazını">
+                </div>
+              </div>
+              <input class= "ui fluid large teal submit button"type="submit" value="Gönder">
+            </div>
+      
+            <div class="ui error message"></div>
+            <a href="/">
+                    <div class="ui fluid animated large teal button" tabindex="0">
+                       <div class="visible content">Anasayfaya Dön</div>
+                       <div class="hidden content">
+                         <i class="right arrow icon"></i>
+                       </div>
+                     </div>
+                   </a>
+          </form>
+      
+        </div>
+      </div>
+          <!--Custom JS File-->
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+/* General Settings - Genel ayarlamaları burada yapıyoruz.*/
+
+h1,
+h2,
+h3,
+.title,
+header {
+  font-family: "Raleway", sans-serif !important;
+}
+h2,
+h3 {
+  color: #fff !important;
+  font-weight: 400 !important;
+}
+
+.sc-section {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+/* Main Section*/
+.sc-yazim
+{
+  color: black !important;
+  font-weight: 20 !important;
+}
+.sc-main {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/arkaplan.png) no-repeat 40% 40% !important;
+  background-size: cover !important;
+  position: relative;
+}
+
+.sc-main.segment {
+  min-height: 100vh;
+}
+
+.sc-header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 80%;
+}
+
+.sc-logo {
+  display: block;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  font-size: 26px;
+  line-height: 70px !important;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 100%;
+}
+
+.fixed {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  padding-right: 8% !important;
+  padding-left: 8% !important;
+}
+
+.secondary.pointing.menu .toc.item {
+  display: none;
+}
+
+h1.ui.header {
+  font-size: 5em;
+  font-weight: 200;
+  letter-spacing: 5px;
+}
+
+h1.ui.header::letter {
+  color:rgb(241, 11, 11) !important;
+}
+
+.primary {
+  background-color: #ffffff !important;
+}
+
+.primary:hover {
+  background-color: #c0392b !important;
+}
+
+
+
+/* SERVICES SETION*/
+
+h2.sc-h2 {
+  font-size: 2.2em !important;
+}
+
+/* ETKİNLİKLER SECTION*/
+
+#etkinlikler {
+  background-color: #f5f5f5;
+}
+
+/* ABOUT SECTION*/
+
+#hakkında {
+  position: relative;
+}
+
+.sc-vertical:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 275px;
+  bottom: 200px;
+  left: 50%;
+  border-left: 2px solid #c0392b;
+  transform: translate(-50%);
+}
+
+/* TEAM SECTION*/
+
+#organizator {
+  background-color: #f5f5f5;
+}
+
+#iletişim {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/contactBackground.jpg) no-repeat 50% 50% !important;
+  background-size: cover !important;
+}
+
+#iletişim p,
+#iletişim .description {
+  color: #fff;
+}
+
+#iletişim i.icon {
+  color: rgb(243, 161, 102);
+}
+
+@media only screen and (max-width: 768px) {
+  .sc-logo {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px !important;
+  }
+  .secondary.pointing.menu .item,
+  .secondary.pointing.menu .menu {
+    display: none;
+  }
+  .secondary.pointing.menu .toc.item {
+    display: block;
+  }
+  .sc-main.segment {
+    min-height: 350px;
+  }
+  .sc-main h1.ui.header {
+    font-size: 3em;
+    margin-top: 1.5em;
+  }
+  .sc-main h2 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+  }
+  .ui.stackable.grid > .row > .column {
+    width: 80% !important;
+  }
+}
